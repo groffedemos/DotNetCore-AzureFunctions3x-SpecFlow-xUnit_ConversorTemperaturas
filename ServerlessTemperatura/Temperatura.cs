@@ -24,10 +24,10 @@ namespace ServerlessTemperatura
             Fahrenheit = temperaturaFahrenheit;
 
             Celsius = (temperaturaFahrenheit - 32.0) / 1.8; // Simulação de falha
-            Kelvin = Celsius + 273.15; // Simulação de falha
+            //Kelvin = Celsius + 273.15; // Simulação de falha
 
             //Celsius = Math.Round((temperaturaFahrenheit - 32.0) / 1.8, 2);
-            //Kelvin = Math.Round(Celsius + 273.15, 2);
+            Kelvin = Math.Round(Celsius + 273.15, 2);
         }
     }
 }
